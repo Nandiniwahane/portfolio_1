@@ -1,0 +1,218 @@
+*{
+    margin: 0%
+    padding: 0%
+}
+body{
+background-color: rgb(3, 3, 58);
+color: white;
+font-family: 'Poppins', sans-serif;
+font-size: larger;
+
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: black;
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: rgb(178, 178, 213);
+font-size: 1.03rem;
+}
+main hr{
+border: 0;
+background: rgb(159, 159, 175);
+height: 1.2px;
+margin: 40px 84px;
+}
+
+.left{
+font-size: 2rem;
+}
+.firstSection {
+display: flex;
+justify-content: space-around ;
+margin: 70px 0;
+}
+.firstSection>div{
+width: 30%;
+}
+.leftsection{
+font-size: 3rem;
+margin: 60px 0;
+
+}
+.leftsection .buttons{
+padding: 60px 0;
+}
+.leftsection .btn{
+padding: 13px;
+background-color: rgb(92, 107, 168);
+color: rgb(150, 25, 25);
+border: 2px solid white;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+
+}
+.rightsection img{
+width: 110%;
+margin: 20px 0;
+
+}
+.purple{
+color:  rgb(152, 152, 191);
+}
+.text-gray{
+color: rgb(221, 210, 210);
+}
+#element{
+color: rgb(120, 120, 187);
+
+}
+.secondsection{
+max-width: 80vw;
+margin: auto;
+height: 90vh;
+}
+.secondsection h1{
+font-size: 1.9rem;
+}
+.secondsection .box{
+background: white;
+width: 76vw;
+height: 2px;
+margin: 56px 0;
+display: flex;
+}
+.secondsection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 12vw;
+}
+.img-top{
+width: 43px;
+position: relative;
+top: -32px;
+left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 95px;
+width: 146px;
+
+}
+.vertical-desc{
+position: relative;
+top: 115px;
+width: 155px;
+color: rgb(232, 225, 225);
+font-size: 13px;
+
+}
+.secondsection .box ol a{
+
+text-decoration: none;
+color: white;
+}
+.secondsection .box ol a:hover{
+color: rgb(92, 92, 163);
+font-size: 1.03rem;
+
+}
+.secondsection ol li{
+list-style: disc;
+margin: 0 23px;
+}
+footer{
+background-color: rgb(0, 0, 0);
+height: 230px;
+}
+.footer{
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+}
+.footer > div{
+width: 223px;
+}
+@media screen and (max-width: 300px) {
+body{
+background-color: red;
+}
+.box{
+flex-direction: column;
+}
+.secondsection .vertical{
+height: unset;
+}
+.vertical-title, .vertical-desc{
+left: 45;
+}
+.secondsection .box{
+width: 50vw;
+}
+nav{
+flex-direction: column;
+}
+footer{
+display: none;
+}
+.firstSection{
+flex-direction: column-reverse;
+}
+.leftsection{
+width: 100% !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.secondsection{
+height: 161vh;
+}
+.rightsection{
+width: 721px !important;
+display: flex;
+justify-content: center;
+}
+.rightsection img{
+width: 45vw;
+margin-bottom: 73px;
+}
+.img-top{
+top: 145px;
+}
+.secondsection{
+max-width: 80vw;
+margin: auto;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+body{
+min-width: fit-content;
+}
+
+
+}
+footer .footer-second ol li{
+font-color: azure;
+
+}
